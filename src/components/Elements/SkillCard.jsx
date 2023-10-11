@@ -5,7 +5,7 @@ import { STACKS } from "../../common/constant/stacks";
 
 export default function SkillCard({ skill, className = "" }) {
   return (
-    <div className={className ? className : "w-8 md:w-11"}>
+    <div className={className ? className : "w-8 sm:w-11"}>
       <Tooltip title={skill}>{STACKS[skill]}</Tooltip>
     </div>
   );

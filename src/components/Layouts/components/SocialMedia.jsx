@@ -12,7 +12,7 @@ export default function SocialMedia() {
           Let`s Connect
         </span>
       </div>
-      <div className="flex mt-2 gap-3 px-3 text-3xl md:text-2xl justify-center text-neutral-700 dark:text-neutral-400">
+      <div className="flex mt-2 gap-3 px-3 text-3xl sm:text-2xl justify-center text-neutral-700 dark:text-neutral-400">
         {SOCIAL_MEDIA.map((item, index) => (
           <IconSocialMediaCard social_media={item} key={index} />
         ))}

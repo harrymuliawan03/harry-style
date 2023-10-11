@@ -8,8 +8,8 @@ export default function SideBar({active}) {
 
   return (
     <>
-      <div className="hidden md:sticky transition-all duration-300 top-0 z-10 md:flex flex-col lg:py-8">
-        <nav className={`hidden md:block`}>
+      <div className="hidden sm:sticky transition-all duration-300 top-0 z-10 sm:flex flex-col lg:py-8">
+        <nav className={`hidden sm:block`}>
           <Header />
           <BreakLine />
           <Navigation active={active} />

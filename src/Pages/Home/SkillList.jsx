@@ -5,14 +5,14 @@ import SkillCard from "../../components/Elements/SkillCard";
 export default function SkillList() {
   return (
     <>
-      <section className="my-10 mx-4 md:my-0 md:mx-0">
+      <section className="my-10 mx-4 sm:my-0 sm:mx-0">
         <div className="flex flex-col justify-center space-y-2 my-5">
           <div className="flex items-center gap-1 text-2xl font-medium text-neutral-800 dark:text-neutral-300 ">
             <BiCodeAlt />
             <h2 className="capitalize">Skills</h2>
           </div>
           <div className="flex flex-col lg:flex-row justify-between lg:items-center gap-2 text-neutral-600 dark:text-neutral-400">
-            <p className="dark:text-neutral-400 text-md">My coding skills.</p>
+            <p className="dark:text-neutral-400 text-sm">My coding skills.</p>
           </div>
         </div>
 

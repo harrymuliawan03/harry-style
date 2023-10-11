@@ -4,7 +4,7 @@ import Tooltip from "./ToolTip";
 export default function RoadmapCard({icon, title, link, delay}) {
     return (
       <div
-        className="rounded-xl transition-all duration-300 shadow-sm lg:hover:shadow-md flex justify-between p-4 border text-sm border-neutral-300 text-neutral-700 dark:border-neutral-700 dark:text-neutral-400 "
+        className="rounded-xl transition-all duration-300 shadow-sm lg:hover:shadow-sm flex justify-between p-4 border text-sm border-neutral-300 text-neutral-700 dark:border-neutral-700 dark:text-neutral-400 "
         data-aos="fade-up"
         data-aos-delay={delay}
         data-aos-anchor="#Roadmaps"

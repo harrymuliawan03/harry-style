@@ -6,10 +6,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function IndexLayout({ active, children, aos }) {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 768);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 898);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 768);
+    console.log(isDesktop);
+    setDesktop(window.innerWidth > 898);
   };
 
   useEffect(() => {

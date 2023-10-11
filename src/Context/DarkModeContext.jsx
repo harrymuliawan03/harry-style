@@ -10,7 +10,6 @@ const DarkModeContextProvider = ({ children }) => {
 
 
     useEffect(() => {
-        console.log("ini tema ", theme);
         localStorage.setItem("theme", theme);
         if (theme === "dark") {
             root.classList.add(theme);
