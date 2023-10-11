@@ -4,7 +4,7 @@ import IndexLayout from "../../components/Layouts/Index";
 import About from "./About";
 
 export default function Index({active}) {
-  const title = "Projects";
+  const title = "About Me";
   const body = "Showcasing my passion for technology, design, and problem-solving through code.";
     
     return (
