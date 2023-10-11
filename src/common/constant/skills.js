@@ -1,0 +1,18 @@
+export const SKILLS = [
+  "Next.js",
+  "TypeScript",
+  "React.js",
+  "Vue.js",
+  "React Native",
+  "Redux",
+  "React Query",
+  "Laravel",
+  "PHP",
+  "Node JS",
+  "TailwindCSS",
+  "Bootstrap",
+  "SASS",
+  "JavaScript",
+  "HTML",
+  "CSS",
+];
