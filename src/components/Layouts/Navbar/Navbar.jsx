@@ -29,12 +29,12 @@ export default function Navbar({active}) {
         } z-[9999] fixed shadow-sm xl:shadow-none w-full lg:border-none dark:border-b dark:border-neutral-800 bg-white dark:bg-dark `}
       >
         <div
-          className={`py-0 ${hamburger ? "h-screen bg-white" : ""} dark:bg-dark px-5`}
+          className={`${hamburger ? "h-screen bg-white" : ""} dark:bg-dark px-5`}
         >
           <div
             className={`relative flex ${
               hamburger ? "flex-col" : "items-center"
-            } justify-between mt-3`}
+            } justify-between`}
           >
             <HeaderMobile
               handleHamburger={handleHamburger}
