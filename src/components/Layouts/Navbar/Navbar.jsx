@@ -24,27 +24,33 @@ export default function Navbar({active}) {
   return (
     <>
       <div
-        className={`${hamburger ? "h-[100vh]" : ""} ${
+        className={`${hamburger ? "min-h-full" : ""} ${
           isScroll ? "navbar-fixed" : ""
-        } z-[9999] fixed top-0 flex md:hidden w-full bg-white dark:bg-dark border-slate-200`}
+        } z-20 fixed shadow-sm xl:shadow-none lg:border-none dark:border-b dark:border-neutral-800 bg-white dark:bg-dark lg:!bg-transparent w-full lg:relative lg:p-0`}
       >
-        <div className={`container p-0 ${hamburger ? "bg-white" : ""} dark:bg-dark px-5`}>
+        <div
+          className={`py-0 ${hamburger ? "bg-white" : ""} dark:bg-dark px-5`}
+        >
           <div
             className={`relative flex ${
               hamburger ? "flex-col" : "items-center"
             } justify-between mt-3`}
           >
-            <HeaderMobile handleHamburger={handleHamburger} hamburger={hamburger} stopScroll={stopScroll} />
+            <HeaderMobile
+              handleHamburger={handleHamburger}
+              hamburger={hamburger}
+              stopScroll={stopScroll}
+            />
             <BreakLine />
-            {hamburger &&
-            <>
-              <Navigation active={active} />
-              <BreakLine />
-              <SocialMedia />
-              <BreakLine />
-              <Credit />
-            </>
-            }
+            {hamburger && (
+              <>
+                <Navigation active={active} />
+                <BreakLine />
+                <SocialMedia />
+                <BreakLine />
+                <Credit />
+              </>
+            )}
           </div>
         </div>
       </div>

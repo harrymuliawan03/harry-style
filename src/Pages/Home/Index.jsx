@@ -8,7 +8,7 @@ export default function Index({ active }) {
     <>
       <IndexLayout active={active} aos="fade-up">
         <Introduction />
-        <BreakLine className="mx-4 sm:mx-0" />
+        <BreakLine className="mx-4 lg:mx-0" />
         <SkillList />
       </IndexLayout>
     </>

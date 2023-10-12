@@ -10,7 +10,7 @@ export default function Index({ active }) {
     <>
       <IndexLayout active={active} aos="fade-up">
         <Header title={title} body={body} />
-        <BreakLine className="mx-5 my-5 sm:mx-0 border-dashed" />
+        <BreakLine className="mx-5 my-5 lg:mx-0 border-dashed" />
         <RoadmapList />
       </IndexLayout>
     </>

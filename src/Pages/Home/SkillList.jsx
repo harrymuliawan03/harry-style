@@ -5,7 +5,7 @@ import SkillCard from "../../components/Elements/SkillCard";
 export default function SkillList() {
   return (
     <>
-      <section className="my-10 mx-4 sm:my-0 sm:mx-0">
+      <section className="my-10 mx-4 lg:my-0 lg:mx-0">
         <div className="flex flex-col justify-center space-y-2 my-5">
           <div className="flex items-center gap-1 text-2xl font-medium text-neutral-800 dark:text-neutral-300 ">
             <BiCodeAlt />

@@ -3,7 +3,7 @@ import Profile from "/images/profile.png";
 export default function Introduction() {
   return (
     <section className="flex flex-wrap">
-      <div className="relative w-full mx-4 mt-24 sm:my-0 sm:mx-0 self-center lg:w-1/2">
+      <div className="relative w-full mx-4 mt-24 lg:my-0 lg:mx-0 self-center lg:w-1/2">
         <h1 className="text-xl font-semibold text-primary">
           Halo{" "}
           <span className="inline-block animate-waving-hand text-2xl">👋</span>,

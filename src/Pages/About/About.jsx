@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex flex-col mx-5 sm:mx-0 mb-20 sm:mb-0">
+    <section className="flex flex-col mx-5 lg:mx-0 mb-20 lg:mb-0">
       <div className="flex flex-col space-y-6 font-sans text-neutral-800 dark:text-neutral-300">
         <p>
           Hi! I am Harry Muliawan, a seasoned software engineer with a deep
