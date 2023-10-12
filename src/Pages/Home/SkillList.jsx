@@ -3,6 +3,7 @@ import { SKILLS } from "../../common/constant/skills";
 import SkillCard from "../../components/Elements/SkillCard";
 
 export default function SkillList() {
+  let delay = 0;
   return (
     <>
       <section className="my-10 mx-4 lg:my-0 lg:mx-0">
@@ -20,7 +21,7 @@ export default function SkillList() {
           className="flex flex-wrap justify-center gap-6 mt-3"
         >
           {SKILLS?.map((skill, index) => (
-            <SkillCard key={index} skill={skill} />
+            <SkillCard key={index} skill={skill} delay={delay+=100} />
           ))}
         </div>
       </section>
