@@ -37,7 +37,7 @@ export default function Introduction() {
         </div>
       </div>
       <div className="w-full self-end px-4 lg:w-1/2">
-        <div className="relative mt-2 lg:right-0 lg:mt-9">
+        <div className="relative overflow-hidden mt-2 lg:right-0 lg:mt-9">
           <img
             src={Profile}
             alt="Harry Muliawan"
@@ -47,7 +47,7 @@ export default function Introduction() {
           />
           <span className="absolute bottom-0 left-1/2 -translate-x-1/2 sm:scale-150 animate-fade_in">
             <svg
-              className="h-[376px] sm:h-[420px]"
+              className="h-[376px] lg:h-[420px]"
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
             >
