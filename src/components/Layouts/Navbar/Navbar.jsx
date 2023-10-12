@@ -24,12 +24,12 @@ export default function Navbar({active}) {
   return (
     <>
       <div
-        className={`${hamburger ? "min-h-full" : ""} ${
+        className={`${hamburger ? "h-screen" : ""} ${
           isScroll ? "navbar-fixed" : ""
-        } z-20 fixed shadow-sm xl:shadow-none lg:border-none dark:border-b dark:border-neutral-800 bg-white dark:bg-dark lg:!bg-transparent w-full lg:relative lg:p-0`}
+        } z-[9999] fixed shadow-sm xl:shadow-none w-full lg:border-none dark:border-b dark:border-neutral-800 bg-white dark:bg-dark `}
       >
         <div
-          className={`py-0 ${hamburger ? "bg-white" : ""} dark:bg-dark px-5`}
+          className={`py-0 ${hamburger ? "h-screen bg-white" : ""} dark:bg-dark px-5`}
         >
           <div
             className={`relative flex ${
